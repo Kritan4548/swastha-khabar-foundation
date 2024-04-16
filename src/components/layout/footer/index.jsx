@@ -13,7 +13,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="bg-[#212529] py-[40px]">
+    <div className="bg-[#077E32] py-[40px]">
       <div className="px-5 md:px-0 w-full md:w-4/5 2xl:w-3/5 mx-auto ">
         {/* <div className=" w-full flex flex-col">
           <span className="text-[#078033] font-bold text-[28px] ">
@@ -67,13 +67,14 @@ function Footer() {
           </div> */}
           <div className=" w-full flex flex-col ">
             <div className=" flex flex-col">
-              <span className="text-primary font-bold text-4xl ">SWASTHYA</span>
+              <span className="text-white font-bold text-4xl ">SWASTHYA</span>
               <span className="text-white font-semibold text-4xl leading-8">
                 KHABAR
               </span>
-              <span className="text-gray-400 font-medium text-2xl">
+              <span className="text-white font-medium text-2xl">
                 FOUNDATION
               </span>
+          
             </div>
             <div className=" flex flex-col gap-2 my-5 items-end mt-20  w-fit">
               <p className="text-white text-left  w-full">

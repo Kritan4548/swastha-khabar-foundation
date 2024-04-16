@@ -2,6 +2,7 @@ import React from "react";
 
 import Vision from "./(_vision)";
 import Team from "./(_team)";
+import Image from "next/image";
 
 export const metadata = {
   title: "About us",
@@ -40,7 +41,9 @@ function page() {
               />
             </svg>
           </div>
-          <p className="text-[#797979] text-xl">
+          {/* <div className="rounded-lg border overflow-hidden p-3">
+            */}
+          <p className="text-[#797979] text-xl ">
             Carrying 14 years of media legacy of our parent organisation,
             Swasthya Khabar, a part of Nepal Live Group, Swasthya Khabar
             Foundation (SKF) aims at bringing the citizens health issues to the
@@ -53,6 +56,13 @@ function page() {
             policy, governance, and advocacy realm. SKF is registered as a
             non-profit foundation in Nepal’s Office of the Company Registrar.
           </p>
+          {/* <Image
+                    src={"/assets/12th-health-award.jpg"}
+                    height={500}
+                    width={500}
+                    alt="12th-health-award"
+                  /> */}
+          {/* </div> */}
         </div>
 
         <div className="flex flex-col gap-2">

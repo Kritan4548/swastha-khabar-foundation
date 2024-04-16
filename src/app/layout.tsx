@@ -41,7 +41,7 @@ export default function RootLayout({
         <div className="flex flex-col">
           <div className="flex flex-col min-h-screen">
             <ExtraNav />
-            <Nav />
+            
             <div className="flex-1 flex flex-col">{children}</div>
           </div>
           <Footer />

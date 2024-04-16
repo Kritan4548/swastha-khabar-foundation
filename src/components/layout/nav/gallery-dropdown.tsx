@@ -31,7 +31,7 @@ export default function GalleryDropdown({
   return (
     <DropdownMenu open={open} onOpenChange={setOpen}>
       <DropdownMenuTrigger
-        className={`flex items-center gap-2 text-lg text-gray-500 lg:text-white pb-3 px-3 lg:px-0 ${
+        className={`flex items-center gap-2 text-lg text-gray-500 lg:text-black pb-3 px-3 lg:px-0 ${
           isActive
             ? "border-b-[3px] text-primary lg:text-white border-primary lg:border-white"
             : ""
